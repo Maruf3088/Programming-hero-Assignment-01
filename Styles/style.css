@@ -43,6 +43,12 @@ html {
   padding: 15px 17px;
   border-radius: 5px;
   font-size: 20px;
+  transition: all .3s ease;
+}
+.btn:hover{
+  background-color: aliceblue;
+  color: black;
+  transform: scale(1.05);
 }
 .container {
   max-width: 80%;
@@ -298,6 +304,7 @@ html {
   background-color: rgba(0, 0, 0, 0.62);
   position: relative;
   border-radius: 8px;
+  margin-bottom: 70px;
 }
 .section-5-container::before {
   content: "";
@@ -342,3 +349,30 @@ html {
   padding: 14px 25px;
 }
 /*!-----------------------------------section-5 style end------------------------------------*/
+
+/*!-----------------------------------Footer style start------------------------------------*/
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 150px;
+  background-color:  rgba(13, 19, 33, 0.03);
+}
+.footer-title{
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.icons{
+  display: flex;
+  gap: 10px;
+}
+.icons img{
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  padding: 5px;
+  cursor: pointer;
+}
+/*!-----------------------------------Footer style End------------------------------------*/
