@@ -105,7 +105,6 @@ html {
 
 /*-------------------------------------Header section style end---------------------------------*/
 
-
 /*------------------------------------Main section style start----------------------------------*/
 
 /*!-----------------------------------section-1 style start------------------------------------*/
@@ -115,6 +114,7 @@ html {
   padding-bottom: 80px;
   padding-left: 97px;
   padding-right: 97px;
+  margin-bottom: 30px;
 }
 .section-1-text {
   margin-bottom: 60px;
@@ -127,7 +127,7 @@ html {
 .section-1-features-container {
   display: flex;
   flex-direction: column;
-  gap:150px;
+  gap: 150px;
 }
 .section-1-feature {
   display: flex;
@@ -175,3 +175,25 @@ html {
   background-position: center;
 }
 /*!----------------------------------section-1 style end-------------------------------------------*/
+
+/*!-----------------------------------section-2 style start------------------------------------*/
+.section-2-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section-2-text {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.section-2-container iframe {
+  width: 80%;
+  margin: 0 auto;
+  border: 25px solid rgb(237, 237, 237);
+  height: 70vh;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.897);
+}
+/*!-----------------------------------section-2 style End------------------------------------*/
+
