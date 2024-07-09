@@ -13,7 +13,7 @@ html {
   width: 100%;
 }
 
-/*Commmon Class*/
+/*--------------------------------Commmon Class----------------------------------*/
 .h1 {
   font-size: 40px;
   color: #0d1321;
@@ -28,7 +28,7 @@ html {
   font-size: 24px;
   font-weight: 700;
 }
-.text{
+.text {
   font-size: 16px;
   font-weight: normal;
   color: rgba(13, 19, 33, 0.582);
@@ -50,9 +50,9 @@ html {
   max-width: 80%;
   margin: 0 auto;
 }
-/*Header section style start*/
+/*-----------------------------------Header section style start-----------------------------------*/
 
-/*navbar style start*/
+/*!----------------------------------navbar style start------------------------------------*/
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -73,9 +73,9 @@ html {
   color: #0d1321;
   font-weight: 600;
 }
-/*navbar style End*/
+/*!-----------------------------------------------navbar style End--------------------------------*/
 
-/*Banner style start*/
+/*!-----------------------------------------------Banner style start------------------------------*/
 .banner {
   background-image: url(../assets/Hero-bg.png);
   height: 40vw;
@@ -84,7 +84,7 @@ html {
   align-items: center;
   background-position: center;
   background-size: cover;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .banner-inner-container {
   width: 70%;
@@ -98,7 +98,80 @@ html {
   height: auto;
   align-self: center;
 }
-.banner-btn{
+.banner-btn {
   align-self: center;
 }
-/*Banner style end*/
+/*!-------------------------------------Banner style end-----------------------------------------*/
+
+/*-------------------------------------Header section style end---------------------------------*/
+
+
+/*------------------------------------Main section style start----------------------------------*/
+
+/*!-----------------------------------section-1 style start------------------------------------*/
+
+.section-1 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 97px;
+  padding-right: 97px;
+}
+.section-1-text {
+  margin-bottom: 60px;
+}
+.Section-1-inner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section-1-features-container {
+  display: flex;
+  flex-direction: column;
+  gap:150px;
+}
+.section-1-feature {
+  display: flex;
+  height: 30vh;
+  gap: 30px;
+}
+.feature-left {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.feature-left-title {
+  width: 80%;
+}
+.feature-left-text {
+  width: 80%;
+}
+.feature-left-btn {
+  align-self: flex-start;
+  padding: 12px 20px;
+  background-color: white;
+  color: #0d1321;
+  font-weight: 600;
+  border-radius: 0px;
+  font-size: 15px;
+}
+.feature-right {
+  width: 30%;
+}
+.feature-1 {
+  background-image: url(../assets/Layer_1.png);
+  background-size: cover;
+  background-position: center;
+}
+.feature-2 {
+  background-image: url(../assets/Group\ 3.png);
+  background-size: cover;
+  background-position: center;
+}
+.feature-3 {
+  background-image: url(../assets/Group\ 4.png);
+  background-size: cover;
+  background-position: center;
+}
+/*!----------------------------------section-1 style end-------------------------------------------*/
