@@ -137,9 +137,8 @@ html {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  background-color: white;
+
   border-radius: 16px;
-  padding: 60px 0;
 }
 .section-1-features-container {
   display: flex;
@@ -151,12 +150,25 @@ html {
   height: 30vh;
   gap: 30px;
   padding: 0 48px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 16px;
+}
+.middle-feature {
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 .feature-left {
   width: 70%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   justify-content: space-evenly;
 }
 .feature-left-title {
@@ -255,6 +267,7 @@ html {
 }
 .card a {
   color: black;
+  font-weight: 700;
 }
 .card1 {
   background: rgba(255, 76, 30, 0.05);
@@ -306,6 +319,7 @@ html {
 }
 .section-4-card-details a {
   color: black;
+  font-weight: 700;
 }
 /*!-----------------------------------section-4 style end------------------------------------*/
 
