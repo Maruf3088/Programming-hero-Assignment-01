@@ -127,6 +127,8 @@ html {
   padding-left: 97px;
   padding-right: 97px;
   margin-bottom: 30px;
+  background-color: rgba(13, 19, 33, 0.02);
+  border-radius: 16px;
 }
 .section-1-text {
   margin-bottom: 60px;
@@ -135,16 +137,20 @@ html {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 60px 0;
 }
 .section-1-features-container {
   display: flex;
   flex-direction: column;
-  gap: 150px;
+  gap: 120px;
 }
 .section-1-feature {
   display: flex;
   height: 30vh;
   gap: 30px;
+  padding: 0 48px;
 }
 .feature-left {
   width: 70%;
@@ -204,7 +210,7 @@ html {
   width: 80%;
   margin: 0 auto;
   border: 25px solid rgb(237, 237, 237);
-  height: 70vh;
+  height: 65vh;
   border-radius: 10px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.897);
 }
@@ -224,14 +230,14 @@ html {
 }
 .cards-container {
   display: flex;
-  justify-content: space-around;
-  gap: 60px;
+  justify-content: space-between;
+  gap: 20px;
 }
 .card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 30px;
+  gap: 10px;
   width: 28%;
   padding: 40px;
   border-radius: 8px;
@@ -312,7 +318,7 @@ html {
   background-image: url(../assets/handshake.jpg);
   background-position: center;
   background-size: cover;
-  height: 270px;
+  height: 300px;
   background-color: rgba(0, 0, 0, 0.62);
   position: relative;
   border-radius: 8px;
@@ -392,18 +398,17 @@ html {
 
 /*!-----------------------------------Media Queries Start------------------------------------*/
 
-@media (min-width:1600px) {
+@media (min-width: 1600px) {
   .container {
     max-width: 75%;
     /* margin: 0 auto; */
   }
 }
 
-
-@media (min-width:2200px) {
+@media (min-width: 2200px) {
   .container {
     max-width: 65%;
     /* margin: 0 auto; */
   }
 }
-
+/*!-----------------------------------Media Queries End------------------------------------*/
