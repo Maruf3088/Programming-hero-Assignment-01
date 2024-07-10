@@ -11,7 +11,7 @@ html {
   width: 100%;
 }
 
-/*--------------------------------Commmon Class----------------------------------*/
+/*----------------------------------------Commmon Class--------------------------------------------*/
 .h1 {
   font-size: 40px;
   color: #0d1321;
@@ -43,12 +43,20 @@ html {
   padding: 15px 17px;
   border-radius: 5px;
   font-size: 20px;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
-.btn:hover{
+.btn:hover {
   background-color: aliceblue;
   color: black;
   transform: scale(1.05);
+}
+.btn:hover a {
+  color: black;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
 .container {
   max-width: 80%;
@@ -229,6 +237,10 @@ html {
   border-radius: 8px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.897);
   text-align: left;
+  transition: all 0.4s ease-in;
+}
+.card:hover {
+  transform: translateY(-25px);
 }
 .card img {
   max-width: 100%;
@@ -349,30 +361,49 @@ html {
   padding: 14px 25px;
 }
 /*!-----------------------------------section-5 style end------------------------------------*/
+/*------------------------------------Main section style start----------------------------------*/
 
-/*!-----------------------------------Footer style start------------------------------------*/
+/*-----------------------------------Footer style start------------------------------------*/
 
 .footer-container {
   display: flex;
   justify-content: space-between;
   padding: 20px 150px;
-  background-color:  rgba(13, 19, 33, 0.03);
+  background-color: rgba(13, 19, 33, 0.03);
 }
-.footer-title{
+.footer-title {
   font-size: 20px;
   font-weight: 700;
   display: flex;
   align-items: center;
 }
-.icons{
+.icons {
   display: flex;
   gap: 10px;
 }
-.icons img{
+.icons img {
   max-width: 100%;
   height: auto;
   object-fit: contain;
   padding: 5px;
   cursor: pointer;
 }
-/*!-----------------------------------Footer style End------------------------------------*/
+/*-----------------------------------Footer style End------------------------------------*/
+
+/*!-----------------------------------Media Queries Start------------------------------------*/
+
+@media (min-width:1600px) {
+  .container {
+    max-width: 75%;
+    /* margin: 0 auto; */
+  }
+}
+
+
+@media (min-width:2200px) {
+  .container {
+    max-width: 65%;
+    /* margin: 0 auto; */
+  }
+}
+
